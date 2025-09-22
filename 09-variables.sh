@@ -2,9 +2,9 @@
 
 sleep 10
 
-starttime=$(date +%s)
+starttime=$(date)
 
-endtime=$(date +%s)
+endtime=$(date)
 
 totaltime=$(($endtime-$starttime))
 
