@@ -8,4 +8,4 @@ endtime=$(date +%H)
 
 totaltime=$(($endtime-$starttime))
 
-echo $totaltime
+echo $totaltime 

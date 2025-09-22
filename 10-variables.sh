@@ -10,3 +10,4 @@ echo $sum
 Leaders=(putin sandeep)
 
 echo ${Leaders[@]}
+echo ${Leaders[2]}
