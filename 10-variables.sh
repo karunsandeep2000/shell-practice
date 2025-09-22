@@ -9,4 +9,4 @@ echo $sum
 
 Leaders=(modi putin sandeep)
 
-echo $Leaders@
+echo $Leaders{@}
