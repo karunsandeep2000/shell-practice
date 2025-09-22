@@ -6,4 +6,7 @@ Number3=30
 
 sum=$(($Number1+$Number2+$Number3))
 echo $sum
-echo "sum"
+
+Leaders=(modi putin sandeep)
+
+echo $Leaders
