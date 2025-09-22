@@ -7,7 +7,7 @@ Number3=30
 sum=$(($Number1+$Number2+$Number3))
 echo $sum
 
-Leaders=(putin sandeep)
+Leaders=(putin charishma kumar sandeep)
 
 echo ${Leaders[@]}
-echo ${Leaders[2]}
+echo ${Leaders[1]}
