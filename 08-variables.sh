@@ -2,4 +2,4 @@
 
 DATE=$(date)
 
-$DATE
+"$DATE"
