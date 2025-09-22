@@ -2,4 +2,4 @@
 
 DATE=$(date)
 
-"$DATE"
+echo " $DATE"
