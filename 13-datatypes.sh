@@ -6,3 +6,4 @@ read number
 echo "given number is $number is even"
     else 
 echo "given number $number is odd"
+fi
