@@ -2,7 +2,7 @@
 
 Number=$1
 
-if [ $Number  10 ]; then
+if [ $Number ]; then
     echo "Number is less than $Number"
 
 else 
