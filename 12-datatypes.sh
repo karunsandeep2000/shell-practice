@@ -2,7 +2,7 @@
 
 echo "please enter the number"
 read number
-    if [ $(($number % 2)) ]; then  
+    if [ $(($number % 2)) 0 ]; then  
 echo "given number is even"  
     else
 echo "given number is odd"    
