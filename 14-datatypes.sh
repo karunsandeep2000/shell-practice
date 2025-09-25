@@ -19,7 +19,7 @@ dnf install mysql -y
 validate $? "mysql"
 
 dnf install ngnix -y 
-validate $? "nignix"
+validate $? "ngnix"
 
 
 dnf install python3 -y 
