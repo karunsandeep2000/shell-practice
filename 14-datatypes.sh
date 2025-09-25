@@ -8,7 +8,7 @@ if [ $USERID -nq 0 ]; then
 fi 
 
 validate(){
-    if [$1 -ne 0 ]; then
+    if [ $1 -ne 0 ]; then
     echo "error $2"
     else
     echo "install $2" 
@@ -24,4 +24,4 @@ validate $? "nignix"
 
 dnf install python3 -y 
 validate $? "python3"
-fi 
+
