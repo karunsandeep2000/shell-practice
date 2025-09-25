@@ -12,6 +12,7 @@ validate(){
     echo "error $2"
     else
     echo "instal $2" 
+    fi
 }
 
 dnf install mysql -y 
