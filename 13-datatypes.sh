@@ -1,16 +1,17 @@
 #!/bin/bash
 
-user=$(id -u)
-    if [ $user -nq 0 ]; then 
-echo "please go with root user"
-exit 1
-    fi
+USERID=$(id -u)
 
-dnf install mysql -y 
+if [ $USERID -ne 0 ]; then
+    echo "ERROR:: Please run this script with root privelege"
+    exit 1 # failure is other than 0
+fi
 
-    if [ $? -nq 0 ]; then 
-echo "try again"
-exit 1
-    else
-echo "ok installed"
-fi 
+dnf install mysql -y
+
+if [ $? -ne 0 ]; then
+    echo "ERROR:: Installing MySQL is failure"
+    exit 1
+else
+    echo "Installing MySQL is SUCCESS"
+fi
