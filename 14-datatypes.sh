@@ -11,17 +11,17 @@ validate(){
     if [$1 -ne 0 ]; then
     echo "error $2"
     else
-    echo "instal $2" 
+    echo "install $2" 
     fi
 }
 
 dnf install mysql -y 
 validate $? "mysql"
 
-dnf install mysql -y 
+dnf install nignix -y 
 validate $? "nignix"
 
 
-dnf install mysql -y 
+dnf install python3 -y 
 validate $? "python3"
 fi 
