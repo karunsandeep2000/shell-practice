@@ -12,4 +12,4 @@ echo "time ends at $Endtime"
 
 Totaltime=$(($Endtime-$Starttime))
 
-echo "Time ends in $Totaltime"
+echo "Time ends in $Totaltime Seconds"
